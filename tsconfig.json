@@ -1,0 +1,9 @@
+{
+  "extends":"@tsconfig/strictest", 
+  "compilerOptions": {    
+    "target": "es2022", 
+    "module": "NodeNext",
+    "outDir": "dist",
+  },
+  "include": ["src","./.eslintrc.cjs","eslint-local-rules.cjs"], 
+}
